@@ -1,0 +1,10 @@
+export {default as Navbar } from "./Navbar";
+export {default as Footerr } from "./Footer";
+export {default as BarGraph } from "./BarGraph";
+export {default as AreaGraph } from "./AreaGraph";
+export {default as HorizontalBar } from "./HorizontalBar";
+export {default as GaugeVoltage} from "./GaugeVoltage";
+export {default as Percentile} from "./Percentile";
+export {default as GaugeCurrent} from "./GaugeCurrent";
+export {default as SideBar } from "./SideBar";
+export {default as ProtectedRoute } from "./ProtectedRoute";

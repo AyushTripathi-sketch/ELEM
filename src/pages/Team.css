@@ -1,0 +1,132 @@
+.teammain {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    top: 130px;
+}
+.teampage-title {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+    margin-top: 0;
+}
+.leadership {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+@media (min-width: 32em) {
+    .leadership {
+        grid-template-columns: repeat(2, 1fr);
+   }
+}
+@media (min-width: 50em) {
+    .leadership {
+        grid-template-columns: repeat(3, 1fr);
+   }
+}
+.leadership .leader {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 32em) {
+    .leadership .leader {
+        max-width: 300px;
+   }
+}
+.leadership .leader:hover {
+    cursor: pointer;
+}
+.leadership .leader:hover .leader__bio {
+    background-color: var(--bio-bkg-hover);
+}
+.leadership .leader:hover .leader__img img {
+    transform: scale(140%);
+    filter: saturate(100%);
+}
+.leadership .leader:hover .leader__name {
+    color: var(--name-text-hover);
+}
+.leadership .leader__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: var(--header-bkg);
+    color: #fff;
+}
+.leadership .leader__exp {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+.leadership .leader__exp .years {
+    font-size: 5rem;
+    margin-right: 8px;
+    font-weight: 700;
+}
+.leadership .leader__bio {
+    padding: 1.5rem 2rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--bio-text);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: var(--bio-bkg);
+    transition: 0.2s all ease-in-out;
+}
+.leadership .leader__img {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.leadership .leader__img img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    filter: saturate(0%);
+    transform: scale(130%);
+    transition: 0.2s all ease-in-out;
+}
+.leadership .leader__name {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.2s all ease-in-out;
+    color: var(--name-text);
+}
+@media (min-width: 32em) {
+    .leadership .leader__name {
+        font-size: 1.5rem;
+   }
+}
+@media (min-width: 50em) {
+    .leadership .leader__name {
+        font-size: 2rem;
+   }
+}
+.leadership .leader__name h2 {
+    font-size: 2.5rem;
+}
+@media (min-width: 32em) {
+    .leadership .leader__name h2 {
+        font-size: 2rem;
+   }
+}
+@media (min-width: 50em) {
+    .leadership .leader__name h2 {
+        font-size: 2.5rem;
+   }
+}

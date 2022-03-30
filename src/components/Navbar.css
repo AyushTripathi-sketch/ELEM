@@ -1,0 +1,15 @@
+.navbarr{
+    height: 70px;
+    justify-content: space-around;
+    padding: 12px 50px 30px 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+.brand{
+    font-family:"Montserrat";
+    display:inline-block;
+    margin:0 100px 0 0;
+}
+.navv{
+    box-shadow: 0 0 7px rgb(109, 105, 105);
+  -webkit-box-shadow: 0 0 7px rgb(109, 105, 105);
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,800;1,500;1,600;1,700;1,800&display=swap');   
+
+.styles_faq-row-wrapper__3vA1D {
+    background-color: #37594f;
+    padding: 2% 2%;
+    margin:"4% 4%"
+
+}
+
+/* Title */
+
+.styles_faq-row-wrapper__3vA1D h2 {
+    /* color: white; */
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    font-size: 3.0rem; 
+    font-weight: 800;
+    text-align:center;
+    color: white;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+    padding: 8px 0;
+}
+
+/* Heading/Question */
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-items: center;
+}
+
+/* Arrow */
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_icon-wrapper__2cftw svg {
+    fill: var(--arrow-color, white);
+}
+
+/* Content under a heading */
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-content__QOGZd .styles_row-content-text__2sgAB {
+    color: var(--row-content-color, white);
+    font-size: 1.28rem;
+    padding: var(--row-content-padding-top, 0) var(--row-content-padding-right, 0) var(--row-content-padding-bottom, 0) var(--row-content-padding-left, 0);
+}
+

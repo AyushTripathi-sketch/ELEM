@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Open+Sans:wght@300;400&family=Smooch+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&family=Open+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@1,300&family=Smooch+Sans:wght@300;400&display=swap');
+
+.card {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    -moz-box-shadow: 0 0 12px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 12px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(26, 196, 125);
+    margin-top: 3%;
+}
+
+.row {
+    margin-bottom: 1.5%;
+}
+
+.card1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    -moz-box-shadow: 0 0 12px rgb(0, 0, 0);
+    -webkit-box-shadow: 0 0 12px rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(206, 202, 202);
+    margin-top: 3%;
+}
