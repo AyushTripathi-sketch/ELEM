@@ -19,7 +19,7 @@ export default function Login() {
         try{
             await logIn(email,password);
             // await setUserPersistance(email,password);
-            navigate('/home')
+            navigate('/')
         }catch(err){
             setError(err.message);
         }

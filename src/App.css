@@ -243,3 +243,13 @@ iframe {
 .ant-layout-sider-trigger{
   background-color: #045B62;
 }
+.ant-card-bordered{
+  border: 10px solid #e2aeae;
+  border-radius: 5px;
+}
+.ant-card-body{
+  padding: 0;
+}
+.table{
+  margin-bottom: 0;
+}
