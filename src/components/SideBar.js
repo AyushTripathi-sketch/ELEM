@@ -45,14 +45,14 @@ function SideBar(props) {
     }
   });
   return (
-    <Sider className="sidebar" collapsible collapsed={collapsed} onCollapse={onCollapse} style={{position: "fixed",
-      zIndex: "1", height:"100%"}}>
+    <Sider className="sidebar" collapsible collapsed={collapsed} onCollapse={onCollapse} style={{
+      zIndex: "1"}}>
       <Menu
         defaultSelectedKeys={[props.menu[0].path]}
         selectedKeys={[selectedKey]}
         mode="inline"
         onClick={handleClick}
-        style={{marginTop:"20%",backgroundColor:"white"}}
+        style={{marginTop:"20%",backgroundColor:"white",height:"100%"}}
       >
         {menuItems}
       </Menu>
