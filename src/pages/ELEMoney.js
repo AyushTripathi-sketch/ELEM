@@ -62,30 +62,111 @@ const titleStyle = { fontFamily:"Montserrat", backgroundColor: "#045B62", color:
 const data = [
   {
     month: "Jan",
-    unit: "",
-    cylinder: "",
-    total: "",
-    Datum: "446.894",
-    percent: "",
-    carbocreds: ""
+    unit: "410",
+    cylinder: "2",
+    total: "430.781",
+    datum: "446.89",
+    percent: "3.58%",
+    carbocreds: "3.58"
   },
   {
-    month: "Jan",
-    unit: "",
-    cylinder: "",
-    total: "",
-    Datum: "446.894",
-    percent: "",
-    carbocreds: ""
+    month: "Feb",
+    unit: "400",
+    cylinder: "1",
+    total: "375.87",
+    datum: "390.52",
+    percent: "3.75%",
+    carbocreds: "3.75"
   },
   {
-    month: "Jan",
-    unit: "",
-    cylinder: "",
-    total: "",
-    Datum: "446.894",
-    percent: "",
-    carbocreds: ""
+    month: "Mar",
+    unit: "433",
+    cylinder: "1",
+    total: "403.03",
+    datum: "413.56",
+    percent: "2.41%",
+    carbocreds: "2.41"
+  },
+  {
+    month: "Apr",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "443.83",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "May",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "514.38",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Jun",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "526.31",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Jul",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "580.22",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Aug",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "516.84",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Sep",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "479.40",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Oct",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "467.05",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Nov",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "397.10",
+    percent: "-",
+    carbocreds: "-"
+  },
+  {
+    month: "Dec",
+    unit: "-",
+    cylinder: "-",
+    total: "-",
+    datum: "380.64",
+    percent: "-",
+    carbocreds: "-"
   }
 ];
 const columns = [
@@ -177,7 +258,7 @@ function ELEMoney() {
                 style={{ minHeight: 268,textAlign:"center",backgroundColor: "#D1E7DD", }}
                 hoverable="true"
               >
-              <h1 style={{marginTop:"20%",fontSize:"3rem"}}>3000 CC </h1>
+              <h1 style={{marginTop:"20%",fontSize:"3rem"}}>30 CC </h1>
               </Card>
             </Col>
             </Row>
