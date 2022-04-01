@@ -14,6 +14,8 @@ import { fontSize } from "@mui/system";
 import Elemart from "../images/ELEMart.png";
 import Elemoney from "../images/ELEMoneylogo.png";
 import Welem from "../images/WELEM.png";
+import House from "../images/house.png";
+import Monitor from "../images/monitor.png";
 const { Content } = Layout;
 
 function Household() {
@@ -80,7 +82,7 @@ function Household() {
             <a href="/myhousehold" class="carddash credentialing">
               <div class="overlay"></div>
               <div class="circle">
-              <img src="https://assets.materialup.com/uploads/93767557-e6b3-4655-8eca-92cd281e9cfe/attachment.png" style={{width:"80%", zIndex:"4", float:"left"}} alt=""/>
+              <img src={House} style={{width:"80%", zIndex:"4", float:"left"}} alt=""/>
                 {/* <svg width="64px" height="72px" viewBox="27 21 64 72" version="1.1" xmlns={Elemoney} xmlnsXlink="http://www.w3.org/1999/xlink">
                   
                   <defs>
@@ -177,7 +179,7 @@ function Household() {
               <div class="overlay"></div>
               <div class="circle">
 
-              <img src={Elemoney} style={{width:"80%", zIndex:"4", float:"left"}} alt=""/>
+              <img src={Monitor} style={{width:"80%", zIndex:"4", float:"left"}} alt=""/>
                 {/* <svg width="66px" height="77px" viewBox="1855 26 66 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 
                   <desc>Created with Sketch.</desc>

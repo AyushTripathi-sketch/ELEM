@@ -7,6 +7,7 @@ import Elemoney from "../images/Elemoney.png";
 import "./ELEMoney_General.css"
 import signin from "../images/sign.gif";
 import emit from "../images/emit2.gif";
+import carboeco from "../images/carboeco.gif";
 import AOS from "aos";
 const { Content } = Layout;
 export default function AboutElemoney() {
@@ -56,7 +57,7 @@ export default function AboutElemoney() {
               </div>
               <div className="row" style={{ margin: "2% 4%" }}>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="fade-up-right" data-aos-duration="2000">
-                  <img src={signin} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
+                  <img src={carboeco} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
                 </div>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="fade-up-left" data-aos-duration="2000">
                   <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Building a carbon-based economy and becoming a part of a better future</div>

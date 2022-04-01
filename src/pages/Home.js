@@ -33,21 +33,21 @@ export default function Home() {
               
               <div className="container">
                 <div className="row">
-                  <div className="col-xl-6 col-lg-6" style={{padding:"10% 0%"}}>
+                  <div data-aos="zoom-in" data-aos-duration="2000" className="col-xl-6 col-lg-6" style={{padding:"10% 2%", overflow:"hidden", textAlign:"center"}}>
                     {/* <div class="video_holder" style={{overflow:"hidden"}}>
                       <video controls>
                         <source src={ELEMadvert} type="video/mp4" />Your browser does not support the video tag.
                       </video>
                     </div> */}
-                    <img src={ELEMadvert} alt="" style={{borderRadius:"8px"}}/>
+                    <img src={ELEMadvert} alt="" style={{borderRadius:"8px", width:"100%"}}/>
 
                   </div>
                   <div className="col-xl-6 col-lg-6">
-                    <div data-aos="fade-up-left" data-aos-duration="1000" style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.8rem", fontWeight: "700", padding: "8% 0%", textAlign: "center" }}>India's first net-zero accelerator for Households</div>
-                    <p style={{ lineHeight: "2", color: "white" }}>
-                      <div data-aos="zoom-in-left" data-aos-duration="1500" ><span style={{ fontSize: "1.5rem" }}>ELEM embodies the mission to achieve net-zero emissions in Indian Households. Every individual has the capacity to lower their carbon footprint, in their own domestic space. Most of the times, all they need is a tangible incentive. <br></br></span>
+                    <div data-aos="fade-up-left" data-aos-duration="1000" style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.2rem", fontWeight: "700", padding: "8% 0%", textAlign: "center" }}>India's first net-zero accelerator for Households</div>
+                    <p style={{ lineHeight: "2", color: "white", textAlign:"center" }}>
+                      <div data-aos="zoom-in-left" data-aos-duration="1500" ><span style={{ fontSize: "1.25rem" }}>ELEM embodies the mission to achieve net-zero emissions in Indian Households. Every individual has the capacity to lower their carbon footprint, in their own domestic space. Most of the times, all they need is a tangible incentive. <br></br></span>
                         <div style={{ textAlign: "center", padding: "2% 0%" }}>
-                          <span style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.6rem", fontWeight: "600" }}> Come find your incentive to become carbon-conscious today!</span><br></br><span style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.6rem", fontWeight: "600" }}> Find your calling, and make it your reality!</span></div>
+                          <span style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.4rem", fontWeight: "600" }}> Come find your incentive to become carbon-conscious today!</span><br></br><span style={{ fontFamily: "Montserrat, sans-serif", fontSize: "1.6rem", fontWeight: "600" }}> Find your calling, and make it your reality!</span></div>
                       </div>
                     </p>
 

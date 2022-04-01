@@ -46,7 +46,7 @@ function SideBar(props) {
   });
   return (
     <Sider className="sidebar" collapsible collapsed={collapsed} onCollapse={onCollapse} style={{
-      zIndex: "1"}}>
+      zIndex: "2", position:"fixed", height:"100%"}}>
       <Menu
         defaultSelectedKeys={[props.menu[0].path]}
         selectedKeys={[selectedKey]}
