@@ -7,6 +7,7 @@ import DSPN from "../images/DSPN.jpg"
 import "./DSPN_General.css"
 import AOS from "aos";
 import signin from "../images/sign.gif";
+import { useUserAuth } from "../context/UserAuthContext";
 import banner1 from "../images/banner1.svg";
 import banner2 from "../images/banner2.svg";
 import banner3 from "../images/banner3.svg";
@@ -14,13 +15,14 @@ import banner4 from "../images/banner4.svg";
 
 const { Content } = Layout;
 export default function AboutDSPN() {
+  const { user } = useUserAuth();
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
   return (
     <>
-      <Navbar />
+      <Navbar isLogined={user ? true : false} />
       <Layout style={{ minHeight: "100vh" }}>
         <Layout className="site-layout">
           <Content className="site-layout-content" style={{background:"linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)" }}>
