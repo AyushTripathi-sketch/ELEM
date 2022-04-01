@@ -23,6 +23,7 @@ import {
 import "../App.css";
 import "./WELEM.css";
 import cc from "../images/cc.png";
+import Welem from "../images/WELEM.png";
 
 const { TabPane } = Tabs;
 const { Content } = Layout;
@@ -186,8 +187,8 @@ function ELEMoney() {
 
                                         <div class="col-xl-6 col-lg-6">
                                             <div class="card card-stats mb-4 mb-xl-0" style={{ boxShadow: "0 0 20px rgb(206, 202, 202)", height: "100%", paddingBottom: "0px" }}>
-                                                <div class="card-body">
-
+                                                <div class="card-body" style={{overflow:"hidden", textAlign:"center"}}>
+                                                    <img src={Welem} style={{width:"50%"}} alt="" />
                                                 </div>
                                             </div>
                                         </div>

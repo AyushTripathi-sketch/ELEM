@@ -115,7 +115,7 @@ function ELEMoney() {
               overflow:"hidden"
             }}
           >
-          <div className="container">
+          <div className="container" style={{margin: "5% 12%"}}>
             <Row gutter={[40,40]}>
             <Col xs={24} sm={24} md={8} lg={8}>
               <Card

@@ -6,7 +6,11 @@ import "../App.css";
 import DSPN from "../images/DSPN.jpg"
 import "./DSPN_General.css"
 import AOS from "aos";
-import signin from "../images/sign.gif"
+import signin from "../images/sign.gif";
+import banner1 from "../images/banner1.svg";
+import banner2 from "../images/banner2.svg";
+import banner3 from "../images/banner3.svg";
+import banner4 from "../images/banner4.svg";
 
 const { Content } = Layout;
 export default function AboutDSPN() {
@@ -27,50 +31,30 @@ export default function AboutDSPN() {
               <div class="slides">
                 <div class="slider">
                   <div class="legend"></div>
-                  <div class="content">
-                    <div class="content-txt">
-                      <h1 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Lorem ipsum dolor</h1>
-                      {/* <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2> */}
-                    </div>
-                  </div>
+                  
                   <div class="dspnimage">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/VVHE6VHMAW.jpg" />
+                  <object data={banner1} type="image/svg+xml" style={{width:"100%", overflow:"hidden"}}></object>
                   </div>
                 </div>
                 <div class="slider">
                   <div class="legend"></div>
-                  <div class="content">
-                    <div class="content-txt">
-                      <h1 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Lorem ipsum dolor</h1>
-                      {/* <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2> */}
-                    </div>
-                  </div>
+                  
                   <div class="dspnimage">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/AKWVXIXFA8.jpg" />
+                  <object data={banner2} type="image/svg+xml" style={{width:"100%", overflow:"hidden"}}></object>
                   </div>
                 </div>
                 <div class="slider">
                   <div class="legend"></div>
-                  <div class="content">
-                    <div class="content-txt">
-                      <h1 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Lorem ipsum dolor</h1>
-                      {/* <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2> */}
-                    </div>
-                  </div>
+                  
                   <div class="dspnimage">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/TPLJK7JPRR.jpg" />
+                  <object data={banner3} type="image/svg+xml" style={{width:"100%", overflow:"hidden"}}></object>
                   </div>
                 </div>
                 <div class="slider">
                   <div class="legend"></div>
-                  <div class="content">
-                    <div class="content-txt">
-                      <h1 style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Lorem ipsum dolor</h1>
-                      {/* <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2> */}
-                    </div>
-                  </div>
+                  
                   <div class="dspnimage">
-                    <img src="https://cdn.stocksnap.io/img-thumbs/960w/XJ2BKV9ASS.jpg" />
+                  <object data={banner4} type="image/svg+xml" style={{width:"100%", overflow:"hidden"}}></object>
                   </div>
                 </div>
               </div>
@@ -112,11 +96,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/ipad.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Apple iPad</h4>
-                                <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -133,11 +117,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/headphone.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Sony Headphone</h4>
-                                <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -154,57 +138,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/macbook-air.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Macbook Air</h4>
-                                <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                <div class="star-rating">
-                                  <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                  </ul>
-                                </div>
-                                <a href="#" class="btn btn-primary">Add to Cart</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-3">
-                            <div class="thumb-wrapper">
-                              <div class="img-box">
-                                <img src="/examples/images/products/nikon.jpg" class="img-fluid" alt="" />
-                              </div>
-                              <div class="thumb-content">
-                                <h4>Nikon DSLR</h4>
-                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                <div class="star-rating">
-                                  <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                  </ul>
-                                </div>
-                                <a href="#" class="btn btn-primary">Add to Cart</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row">
-                          <div class="col-sm-3">
-                            <div class="thumb-wrapper">
-                              <div class="img-box">
-                                <img src="/examples/images/products/play-station.jpg" class="img-fluid" alt="" />
-                              </div>
-                              <div class="thumb-content">
-                                <h4>Sony Play Station</h4>
-                                <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -221,53 +159,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/macbook-pro.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Macbook Pro</h4>
-                                <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
-                                <div class="star-rating">
-                                  <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                  </ul>
-                                </div>
-                                <a href="#" class="btn btn-primary">Add to Cart</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-3">
-                            <div class="thumb-wrapper">
-                              <div class="img-box">
-                                <img src="/examples/images/products/speaker.jpg" class="img-fluid" alt="" />
-                              </div>
-                              <div class="thumb-content">
-                                <h4>Bose Speaker</h4>
-                                <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
-                                <div class="star-rating">
-                                  <ul class="list-inline">
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                  </ul>
-                                </div>
-                                <a href="#" class="btn btn-primary">Add to Cart</a>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-sm-3">
-                            <div class="thumb-wrapper">
-                              <div class="img-box">
-                                <img src="/examples/images/products/galaxy.jpg" class="img-fluid" alt="" />
-                              </div>
-                              <div class="thumb-content">
-                                <h4>Samsung Galaxy S8</h4>
-                                <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -285,14 +181,14 @@ export default function AboutDSPN() {
                       </div>
                       <div class="carousel-item">
                         <div class="row">
-                          <div class="col-sm-3">
+                        <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/iphone.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Apple iPhone</h4>
-                                <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -309,11 +205,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/canon.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Canon DSLR</h4>
-                                <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -330,11 +226,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/pixel.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Google Pixel</h4>
-                                <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -351,11 +247,99 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="/examples/images/products/watch.jpg" class="img-fluid" alt="" />
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Apple Watch</h4>
-                                <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <div class="star-rating">
+                                  <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                  </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-sm-3">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                              </div>
+                              <div class="thumb-content">
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <div class="star-rating">
+                                  <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                  </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                              </div>
+                              <div class="thumb-content">
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <div class="star-rating">
+                                  <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                  </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                              </div>
+                              <div class="thumb-content">
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <div class="star-rating">
+                                  <ul class="list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                  </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="thumb-wrapper">
+                              <div class="img-box">
+                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                              </div>
+                              <div class="thumb-content">
+                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
+                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -399,7 +383,7 @@ export default function AboutDSPN() {
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div id="product-1" class="single-product">
                         <div class="part-1">
-                          <img src="https://rukminim1.flixcart.com/image/416/416/l0igvww0/refrigerator-new/s/t/i/-original-imagcafgreta8nzt.jpeg?q=70" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                          <img class="dspnprodimg" src="https://rukminim1.flixcart.com/image/416/416/l0igvww0/refrigerator-new/s/t/i/-original-imagcafgreta8nzt.jpeg?q=70" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -418,7 +402,7 @@ export default function AboutDSPN() {
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div id="product-2" class="single-product">
                         <div class="part-1">
-                        <img src="https://m.media-amazon.com/images/I/71PpAFGSYyL._SY741_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/71PpAFGSYyL._SY741_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <span class="discount">25% off</span>
                           
                           <ul>
@@ -439,7 +423,7 @@ export default function AboutDSPN() {
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div id="product-3" class="single-product">
                         <div class="part-1">
-                        <img src="https://m.media-amazon.com/images/I/71VrKE7KqmL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/71VrKE7KqmL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -458,7 +442,7 @@ export default function AboutDSPN() {
                       <div id="product-4" class="single-product">
                         <div class="part-1">
                         
-                        <img src="https://m.media-amazon.com/images/I/81od9GbumhL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/81od9GbumhL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           {/* <span class="new">new</span> */}
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -478,7 +462,7 @@ export default function AboutDSPN() {
                       <div id="product-1" class="single-product">
                       
                       <div class="part-1">
-                      <img src="https://m.media-amazon.com/images/I/61txU3NE6aL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                      <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/61txU3NE6aL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -498,7 +482,7 @@ export default function AboutDSPN() {
                       <div id="product-2" class="single-product">
                         <div class="part-1">
                        
-                        <img src="https://m.media-amazon.com/images/I/61x0Qnm08HS._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/61x0Qnm08HS._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           {/* <span class="discount">15% off</span> */}
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
@@ -518,7 +502,7 @@ export default function AboutDSPN() {
                       <div id="product-3" class="single-product">
                         <div class="part-1">
                         
-                        <img src="https://images.samsung.com/is/image/samsung/in-convection-mc32j7035ct-mc32j7035ct-tl-frontsilver-145994834?$684_547_PNG$" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://images.samsung.com/is/image/samsung/in-convection-mc32j7035ct-mc32j7035ct-tl-frontsilver-145994834?$684_547_PNG$" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                             <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -537,7 +521,7 @@ export default function AboutDSPN() {
                       <div id="product-4" class="single-product">
                         <div class="part-1">
                        
-                        <img src="https://m.media-amazon.com/images/I/71Sh4Tra6xL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
+                        <img class="dspnprodimg" src="https://m.media-amazon.com/images/I/71Sh4Tra6xL._SX679_.jpg" style={{maxHeight:"100%", maxWidth:"100%"}} alt=""/>
                           <span class="new">new</span>
                           <ul>
                             <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>

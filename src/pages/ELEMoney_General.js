@@ -5,7 +5,9 @@ import { Layout } from "antd";
 import "../App.css";
 import Elemoney from "../images/Elemoney.png";
 import "./ELEMoney_General.css"
-import signin from "../images/sign.gif"
+import signin from "../images/sign.gif";
+import emit from "../images/emit2.gif";
+import carboeco from "../images/carboeco.gif";
 import AOS from "aos";
 const { Content } = Layout;
 export default function AboutElemoney() {
@@ -26,13 +28,13 @@ export default function AboutElemoney() {
                   <img src={signin} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
                 </div>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="fade-left" data-aos-duration="2000">
-                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Towards a Sustainable Future</div>
+                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Sign-up and Monitoring</div>
                   <p style={{
                     fontSize: "1.4rem",
                     fontWeight: "200",
                     letterSpacing: "0.01em", color: "#474747"
                   }}>
-                    ELEMoney offers every individual in India the chance to earn through adopting a carbon-conscious lifestyle. All you have to do is sign-up with ELEMoney, and ELEM takes care of the rest, allowing you to earn money by reducing your household carbon emissions.  No more are the benefits of leading a less consumptive life abstract, or in the distant future.
+                    Once you have signed-up with ELEMoney, your household emissions will be monitored, in an absolutely non-invasive manner.  
                   </p>
                 </div>
               </div>
@@ -40,31 +42,32 @@ export default function AboutElemoney() {
 
               <div className="row" style={{ margin: "10% 4%" }}>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="flip-left" data-aos-duration="2000">
-                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Towards a Sustainable Future</div>
+                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Emissions lowered and Earning money</div>
                   <p style={{
                     fontSize: "1.4rem",
                     fontWeight: "200",
                     letterSpacing: "0.01em", color: "#474747"
                   }}>
-                    ELEMoney offers every individual in India the chance to earn through adopting a carbon-conscious lifestyle. All you have to do is sign-up with ELEMoney, and ELEM takes care of the rest, allowing you to earn money by reducing your household carbon emissions.  No more are the benefits of leading a less consumptive life abstract, or in the distant future.
+                    As soon as you lower your household emissions, you’ll be paid in carbocredits which will be fungible for INR and usable for purchasing products and services from ELEMart.
                   </p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="flip-right" data-aos-duration="2000">
-                  <img src={signin} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
+                  <img src={emit} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
                 </div>
               </div>
               <div className="row" style={{ margin: "2% 4%" }}>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="fade-up-right" data-aos-duration="2000">
-                  <img src={signin} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
+                  <img src={carboeco} style={{ overflow: "hidden", width: "100%", borderRadius: "10px" }} />
                 </div>
                 <div className="col-xl-6 col-lg-6 col-sm" data-aos="fade-up-left" data-aos-duration="2000">
-                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Towards a Sustainable Future</div>
+                  <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>Building a carbon-based economy and becoming a part of a better future</div>
                   <p style={{
                     fontSize: "1.4rem",
                     fontWeight: "200",
-                    letterSpacing: "0.01em", color: "#474747"
+                    letterSpacing: "0.01em", color: "#474747",
+                    textAlign:"center"
                   }}>
-                    ELEMoney offers every individual in India the chance to earn through adopting a carbon-conscious lifestyle. All you have to do is sign-up with ELEMoney, and ELEM takes care of the rest, allowing you to earn money by reducing your household carbon emissions.  No more are the benefits of leading a less consumptive life abstract, or in the distant future.
+                    Become carbon-conscious with ELEM. Build a  wealthier household in a healthier environment.
                   </p>
                 </div>
               </div>

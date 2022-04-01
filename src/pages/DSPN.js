@@ -78,7 +78,6 @@ function ELEMoney() {
             className="site-layout-background"
             style={{
               padding: 24,
-              marginLeft:"12.5%",
               minHeight: 280,
               background:"linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)",
               overflow: "hidden",
