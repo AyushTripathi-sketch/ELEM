@@ -505,7 +505,7 @@
     left: 0;
     right: 0;
   }
-  .carousel .carousel-item h4 {
+  .carousel .carousel-item h2 {
     font-size: 18px;
     margin: 10px 0;
   }
@@ -610,7 +610,7 @@
   margin-bottom: 50px;
 }
 
-.section-products .header h3 {
+.section-products .header h2 {
   font-size: 1rem;
   color: #fe302f;
   font-weight: 500;
@@ -728,7 +728,7 @@
   font-size: 1rem;
 }
 
-.section-products .single-product .part-2 h4 {
+.section-products .single-product .part-2 h2 {
   display: inline-block;
   font-size: 1rem;
 }
@@ -751,7 +751,7 @@
   transform: translateY(-50%);
 }
 
-.thumb-content h4{
+.thumb-content h2{
   color:white !important;
   font-weight: 700;
 }

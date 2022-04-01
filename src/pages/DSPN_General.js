@@ -12,6 +12,7 @@ import banner1 from "../images/banner1.svg";
 import banner2 from "../images/banner2.svg";
 import banner3 from "../images/banner3.svg";
 import banner4 from "../images/banner4.svg";
+import Elemart from "../images/ELEMart.png";
 
 const { Content } = Layout;
 export default function AboutDSPN() {
@@ -80,7 +81,9 @@ export default function AboutDSPN() {
 
 
             <div className="container">
-              <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "3.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>ELEMart</div>
+              <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "3.5rem", textAlign: "center", fontWeight: "700", padding: "2% 0%" }}>ELEMart
+              <img src={Elemart} style={{width:"15%"}} alt="" />
+              </div>
               <div class="row">
                 <div class="col-md-12">
                   <div style={{ fontFamily: "Montserrat, sans-serif", fontSize: "2.0rem", fontWeight: "700", padding: "2% 0%" }}>Featured Products</div>
@@ -98,11 +101,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                                <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1610967319/Croma%20Assets/Small%20Appliances/Fans/Images/230088_rqhgii.png/mxw_2048,f_auto" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
-                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <h2>Atomberg Renesa Smart Plus 120cm Sweep 3 Blade Smart Ceiling Fan (Remote Control, RSFP31200RG, Golden Oakwood)</h2>
+                                <p class="item-price"><strike>70 CC</strike> <span>62 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -119,11 +122,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                                <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1607353436/Croma%20Assets/Small%20Appliances/Fans/Images/230587_lsyhz3.png/mxw_2048,f_auto" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
-                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <h2>Sun King Solar Powered Portable 3 Blade Table Fan</h2>
+                                <p class="item-price"><strike>72 CC</strike> <span>65 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -140,11 +143,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                                <img src="https://cdn1.industrybuying.com/products_medium/solar/solar-panels/SOL.SOL.102804216_1638012968566.jpg" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
-                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <h2>Adani 340W 24V Polycrystalline Solar Panel</h2>
+                                <p class="item-price"><strike>120 CC</strike> <span>106 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -161,11 +164,11 @@ export default function AboutDSPN() {
                           <div class="col-sm-3">
                             <div class="thumb-wrapper">
                               <div class="img-box">
-                                <img src="https://images.samsung.com/is/image/samsung/in-front-loading-ww80j4243mwtl-ww80j4243mw-tl-white-261155019?$684_547_PNG$" class="img-fluid" alt="" />
+                                <img src="https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1606068529/Croma%20Assets/Small%20Appliances/Lighting%20Products/Images/9008480649246.png/mxw_2048,f_auto" class="img-fluid" alt="" />
                               </div>
                               <div class="thumb-content">
-                                <h4>Samsung Washing Machine Front Load with EcoBubble</h4>
-                                <p class="item-price"><strike>270 CC</strike> <span>244 CC</span></p>
+                                <h2>Sun King Pro 300 2.08 Watts LED Solar Lamp (300 Lumens, Polycrystalline Solar Panel</h2>
+                                <p class="item-price"><strike>26 CC</strike> <span>22 CC</span></p>
                                 <div class="star-rating">
                                   <ul class="list-inline">
                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>

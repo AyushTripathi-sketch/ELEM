@@ -9,7 +9,8 @@ import forest from "../images/forest-bg.jpg";
 import AOS from "aos";
 import { useUserAuth } from "../context/UserAuthContext";
 import ELEMadvert from "../images/elemadvert.gif";
-import wood from "../images/wood.png";
+import Elemoneyhome from "../images/elemoneyhome.png";
+import Elemarthome from "../images/elemarthome.png";
 
 const { Content } = Layout;
 export default function Home() {
@@ -23,23 +24,33 @@ export default function Home() {
       <Navbar isLogined={user ? true : false} />
       <Layout style={{ minHeight: "100vh" }}>
         <Layout className="site-layout">
-          <Content className="site-layout-content" style={{ background: "linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)" }}>
+          <Content className="site-layout-content" style={{ background: "linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)", overflow:"hidden" }}>
             <div>
               <div class="sun" style={{ marginLeft: "38%", marginRight: "38%", marginTop: "8%", marginBottom: "16%", position: "relative", zIndex: "5" }}><img src={ELEM} className="image" alt="Original" style={{ position: "relative", width: "94%", margin: "18% 4%" }} /></div>
-              <div style={{ zIndex: "1", marginTop: "-20%" }}><img src={forest} />
-              <a href="/aboutelemoney"><div style={{ zIndex: "2", top:"108%", position:"absolute"}}>
-                <img src={wood} style={{width:"35%"}}/>
-              </div></a>
+              <div style={{ zIndex: "1", marginTop: "-20%"}}><img src={forest} />
+              <div className="row" style={{overflow:"hidden"}}>
+                <div className="col-lg-6 col-sm-6" style={{ zIndex: "2", position:"absolute", top:"98.5%", right:"52%", overflow:"hidden"}}>
+                    <a href="/aboutdspn">
+                    <img src={Elemarthome} style={{width:"50%"}}/>
+                    </a>
+                </div>
+                <div className="col-lg-6 col-sm-6" style={{ zIndex: "2", position:"absolute", top:"98.5%", left:"50%", overflow:"hidden", marginLeft:"24%"}}>
+                    <a href="/aboutelemoney">
+                    <img src={Elemoneyhome} style={{width:"50%"}}/>
+                    </a>
+                </div>
+              </div>
+              {/* <a href="/aboutelemoney" style={{ zIndex: "2", top:"108%", position:"absolute", width:"50%"}}> */}
+              {/* <div style={{ zIndex: "2", top:"108%", position:"absolute"}}> */}
+                {/* <img src={Elemoneyhome} style={{width:"35%"}}/> */}
+              {/* </div> */}
+              {/* </a> */}
               </div>
               
               <div className="container">
                 <div className="row">
                   <div data-aos="zoom-in" data-aos-duration="2000" className="col-xl-6 col-lg-6" style={{padding:"10% 2%", overflow:"hidden", textAlign:"center"}}>
-                    {/* <div class="video_holder" style={{overflow:"hidden"}}>
-                      <video controls>
-                        <source src={ELEMadvert} type="video/mp4" />Your browser does not support the video tag.
-                      </video>
-                    </div> */}
+                    
                     <img src={ELEMadvert} alt="" style={{borderRadius:"8px", width:"100%"}}/>
 
                   </div>
@@ -187,4 +198,3 @@ export default function Home() {
     </>
   );
 }
-
