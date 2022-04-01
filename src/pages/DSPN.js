@@ -73,13 +73,13 @@ function ELEMoney() {
       <Navbar isLogined={true} />
       <Layout style={{ marginTop: "7%" }}>
         <SideBar menu={menu} />
-        <Layout style={{ padding: "0" }}>
+        <Layout style={{ padding: "0", background:"linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)" }}>
           <Content
             className="site-layout-background"
             style={{
               padding: 24,
+              marginLeft:"12.5%",
               minHeight: 280,
-              background:"linear-gradient(to bottom, #8BDFC7 20%, #458986 60%, #3c7875 80%, #346765 100%)",
               overflow: "hidden",
             }}
           >
