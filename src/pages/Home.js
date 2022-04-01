@@ -27,8 +27,9 @@ export default function Home() {
             <div>
               <div class="sun" style={{ marginLeft: "38%", marginRight: "38%", marginTop: "8%", marginBottom: "16%", position: "relative", zIndex: "5" }}><img src={ELEM} className="image" alt="Original" style={{ position: "relative", width: "94%", margin: "18% 4%" }} /></div>
               <div style={{ zIndex: "1", marginTop: "-20%" }}><img src={forest} />
-              <div style={{ zIndex: "2", top:"108%", position:"absolute"}}><img src={wood} style={{width:"35%"}}/>
-              </div>
+              <a href="/aboutelemoney"><div style={{ zIndex: "2", top:"108%", position:"absolute"}}>
+                <img src={wood} style={{width:"35%"}}/>
+              </div></a>
               </div>
               
               <div className="container">
